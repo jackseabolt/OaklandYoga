@@ -16,10 +16,39 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
+/* This section controls the zoom on the index images */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  overflow: hidden;
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img { 
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* End of section */
+
 $nav: black; 
 
 .center_section {
-	background-color:#1e1e1e 
+	background-color:#1e1e1e; 
 }
 .center_padding {
 	padding-bottom: 50px; 
@@ -62,11 +91,15 @@ body {
 	color: grey;
 }
 .index_image {
-	width: 100%;
-	border: 5px solid grey;  
+	width: 100%;   
 }
 .photo_pad {
-	padding-bottom: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 15px solid #1e1e1e;
+}
+.photo_pad:hover {
+
 }
 .index_section {
 	padding-top: 80px;
