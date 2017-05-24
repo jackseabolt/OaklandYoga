@@ -49,7 +49,10 @@ $nav: black;
 
 
 .border {
-	border: 15px solid #1e1e1e;;
+	border: 15px solid #1e1e1e;
+}
+.border-radius {
+  	border-radius: 10px !important;
 }
 .border_thick {
 	border: 30px solid #1e1e1e;;
@@ -73,10 +76,10 @@ body {
 	background: url(photo.jpg);
 }
 
-.banner {
+#banner {
 	background: url(banner.jpg);
 	-webkit-background-size: cover;
-
+	position: relative;
 	height: 450px;
 	margin-top: none !important;
 	padding-top: none !important;
@@ -102,6 +105,9 @@ body {
 .index_image {
 	width: 100%;   
 }
+.photo_title {
+	position: relative;
+}
 .photo_pad {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -111,8 +117,9 @@ body {
 }
 #logo { 
 	margin-top: 150px !important; 
-	font-size: 90px; 
+	font-size: 120px; 
 	color: white; 
+	font-family: 'Mrs Sheppards', cursive;
 }
 .navbar {
 	padding: 10px; 
