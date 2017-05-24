@@ -49,9 +49,11 @@ $nav: black;
 
 .center_section {
 	background-color:#1e1e1e; 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
 }
 .center_padding {
-	padding-bottom: 50px; 
+	padding-bottom: 50px;
 }
 .content { 
 	position: relative;
@@ -96,13 +98,9 @@ body {
 .photo_pad {
 	padding-left: 0px;
 	padding-right: 0px;
-	border: 15px solid #1e1e1e;
 }
 .photo_pad:hover {
 
-}
-.index_section {
-	padding-top: 80px;
 }
 #logo { 
 	margin-top: 150px !important; 
