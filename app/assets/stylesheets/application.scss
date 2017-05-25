@@ -41,6 +41,7 @@
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  opacity: 0.6;
 }
 
 /* End of section */
@@ -64,16 +65,19 @@ body {
 	z-index: -5;
 }
 .border {
-	border: 15px solid #1e1e1e;
+	border: 15px solid black;
+	-webkit-border-radius: 10px !important;
+	-moz-border-radius: 10px !important;
+	border-radius: 10px !important
+	;
 }
 .border-radius {
-  	border-radius: 10px !important;
-}
-.border_thick {
-	border: 30px solid #1e1e1e;;
+  	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .center_section {
-	background-color:#1e1e1e; 
+	background-color:black; 
 	padding-top: 80px; 
 	padding-bottom: 80px; 
 	z-index: 9; 
@@ -86,7 +90,7 @@ body {
 	top: -20px;
 }
 .contact_section {
-	background-color: black; 
+	background-color: #1e1e1e; 
 	margin-top: 30px;
 	padding: 50px 0px 90px 0px; 
 	h1, h1, h3, h4, p {
@@ -100,6 +104,7 @@ body {
 .footer { 
 	color: grey; 
 	padding-bottom: 80px; 
+	background-color: #1e1e1e;
 }
 .grey { 
 	color: grey;
@@ -113,6 +118,7 @@ body {
 .photo_pad {
 	padding-left: 0px;
 	padding-right: 0px;
+	border-radius: 15px;
 }
 .photo_pad:hover {
 
@@ -123,12 +129,21 @@ body {
 	color: white; 
 	font-family: 'Mrs Sheppards', cursive;
 }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
 .navbar {
 	padding: 10px; 
 	position: fixed;
 	z-index: 5;
 	top: 0px;
 	width: 100%;
+	text-align: center;
 	box-shadow: 0px 0px 5px black;
 	.icon-bar {
 		background: white !important; 
@@ -155,3 +170,14 @@ nav {
 		background: $nav !important;
 	}
 }
+.nav_item {
+	margin-left: 23px;
+	margin-right: 23px;
+	font-size: 16px;
+	color: white !important;
+
+}
+.navbar_nav {
+
+}
+
