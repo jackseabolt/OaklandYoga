@@ -47,7 +47,22 @@
 
 $nav: black; 
 
+body {
+	background-color:black ;
+}
+#box1 {
+	background: url(photo.jpg);
+}
 
+#banner {
+	background: url(banner.jpg);
+	-webkit-background-size: cover;
+	height: 450px;
+	position: relative !important;
+	margin-top: none !important;
+	padding-top: none !important;
+	z-index: -5;
+}
 .border {
 	border: 15px solid #1e1e1e;
 }
@@ -61,6 +76,7 @@ $nav: black;
 	background-color:#1e1e1e; 
 	padding-top: 80px; 
 	padding-bottom: 80px; 
+	z-index: 9; 
 }
 .center_padding {
 	padding-bottom: 50px;
@@ -68,21 +84,6 @@ $nav: black;
 .content { 
 	position: relative;
 	top: -20px;
-}
-body {
-	background-color:black ;
-}
-#box1 {
-	background: url(photo.jpg);
-}
-
-#banner {
-	background: url(banner.jpg);
-	-webkit-background-size: cover;
-	position: relative;
-	height: 450px;
-	margin-top: none !important;
-	padding-top: none !important;
 }
 .contact_section {
 	background-color: black; 
@@ -94,6 +95,7 @@ body {
 	h5 {
 		color: #ababab; 
 	}
+
 }
 .footer { 
 	color: grey; 
