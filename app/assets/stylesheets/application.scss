@@ -66,15 +66,16 @@ body {
 }
 .border {
 	border: 15px solid black;
-	-webkit-border-radius: 10px !important;
-	-moz-border-radius: 10px !important;
-	border-radius: 10px !important
-	;
 }
 .border-radius {
-  	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+  	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+.inner-border-radius {
+  	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 .center_section {
 	background-color:black; 
@@ -118,7 +119,6 @@ body {
 .photo_pad {
 	padding-left: 0px;
 	padding-right: 0px;
-	border-radius: 15px;
 }
 .photo_pad:hover {
 
