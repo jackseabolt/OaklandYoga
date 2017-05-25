@@ -47,16 +47,6 @@
 
 $nav: black; 
 
-.center_section {
-	background-color:#1e1e1e; 
-}
-.center_padding {
-	padding-bottom: 50px; 
-}
-.content { 
-	position: relative;
-	top: -20px;
-}
 body {
 	background-color:black ;
 }
@@ -64,13 +54,36 @@ body {
 	background: url(photo.jpg);
 }
 
-.banner {
+#banner {
 	background: url(banner.jpg);
 	-webkit-background-size: cover;
-
 	height: 450px;
+	position: relative !important;
 	margin-top: none !important;
 	padding-top: none !important;
+	z-index: -5;
+}
+.border {
+	border: 15px solid #1e1e1e;
+}
+.border-radius {
+  	border-radius: 10px !important;
+}
+.border_thick {
+	border: 30px solid #1e1e1e;;
+}
+.center_section {
+	background-color:#1e1e1e; 
+	padding-top: 80px; 
+	padding-bottom: 80px; 
+	z-index: 9; 
+}
+.center_padding {
+	padding-bottom: 50px;
+}
+.content { 
+	position: relative;
+	top: -20px;
 }
 .contact_section {
 	background-color: black; 
@@ -82,6 +95,7 @@ body {
 	h5 {
 		color: #ababab; 
 	}
+
 }
 .footer { 
 	color: grey; 
@@ -93,21 +107,21 @@ body {
 .index_image {
 	width: 100%;   
 }
+.photo_title {
+	position: relative;
+}
 .photo_pad {
 	padding-left: 0px;
 	padding-right: 0px;
-	border: 15px solid #1e1e1e;
 }
 .photo_pad:hover {
 
 }
-.index_section {
-	padding-top: 80px;
-}
 #logo { 
 	margin-top: 150px !important; 
-	font-size: 90px; 
+	font-size: 120px; 
 	color: white; 
+	font-family: 'Mrs Sheppards', cursive;
 }
 .navbar {
 	padding: 10px; 

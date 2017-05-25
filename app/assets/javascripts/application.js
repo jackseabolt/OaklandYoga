@@ -15,3 +15,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).on('turbolinks:load', function (){
+	function parallax(){
+		div = document.getElementById('banner');  
+		ypos = window.pageYOffset; 
+		div.style.top = ypos * 0.5 + 'px'; 
+	}
+
+	window.addEventListener('scroll', parallax); 
+
+})
+

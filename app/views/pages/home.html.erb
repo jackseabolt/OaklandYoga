@@ -1,33 +1,31 @@
 <div class="container-fluid content">
-	<div class="row banner">
+	<div id="banner" class="row">
 		<div class="col-sm-12 text-center">
-		<h1 id="logo">Oakland<span style="font-weight:100">Yoga</span></h1>
-		<%= link_to "Buy Classes", root_path, class:'btn btn-lg btn-primary' %>
+			<h1 id="logo">Oakland <span style="color: white">Yoga</span></h1>
+			<%= link_to "Buy Classes", root_path, class:'btn btn-lg btn-primary' %>
 		</div>
 	</div>
 	<div class="row center_section">
-		<div class="col-md-10 col-md-push-1 index_section">
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "yoga1.jpg", class:'index_image' %>
-			</div>
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "photo.jpg", class:'index_image' %>
-			</div>
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "yoga3.jpg", class:'index_image' %>
-			</div>
-		</div>
-	</div>
-	<div class="row center_section center_padding">
+
 		<div class="col-md-10 col-md-push-1">
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "yoga4.jpg", class:'index_image' %> 
+			<div class="col-md-6 photo_pad border">
+				<div class="col-md-12 photo_pad item">
+						<%= image_tag "yoga1.jpg", class:'index_image_big border-radius' %>
+				</div>
 			</div>
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "yoga5.jpg", class:'index_image' %> 
-			</div>
-			<div class="col-md-4 photo_pad item">
-				<%= image_tag "yoga2.jpg", class:'index_image' %> 
+			<div class="col-md-6 photo_pad">
+				<div class="col-md-6 photo_pad item border">
+					<%= image_tag "yoga4.jpg", class:'index_image border-radius' %>
+				</div>
+				<div class="col-md-6 photo_pad item border">
+					<%= image_tag "yoga5.jpg", class:'index_image border-radius' %> 
+				</div>
+				<div class="col-md-6 photo_pad item border">
+					<%= image_tag "yoga2.jpg", class:'index_image border-radius' %> 
+				</div>
+				<div class="col-md-6 photo_pad item border">
+					<%= image_tag "yoga3.jpg", class:'index_image border-radius' %> 
+				</div>
 			</div>
 		</div>
 	</div>
