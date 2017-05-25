@@ -152,23 +152,29 @@ body {
 .navbar_placeholder {
 	width: 100%;
 	height: 70px;
-	background-color: none;
+	background-color: black;
 }
 nav {
  	border: $nav !important; 
 	border-radius: 0px !important; 
-	background-color: $nav  !important;
-	opacity: 0.5;
+	background: rgba(0, 0, 0, 0.4) !important;
+	
 	a {
 		color: white !important; 
 		background-color: $nav  !important;
 	} 
 	.collapsed {
-		border: 1px solid $nav  !important;
+		border: 0px  !important;
 	}
 	.collapsed:hover {
-		background: $nav !important;
+		background: rgba(0, 0, 0, 0.4) !important;
 	}
+	a {
+		background: transparent !important;
+	}
+}
+.navbar-inner {
+    background:transparent;
 }
 .nav_item {
 	margin-left: 23px;
