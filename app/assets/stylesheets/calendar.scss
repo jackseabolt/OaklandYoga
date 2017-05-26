@@ -1,0 +1,92 @@
+.simple-calendar {
+  a { 
+    color: grey;
+  }
+  a:hover { 
+    color: grey;
+  }
+  .calendar-heading { 
+    padding-bottom: 20px;
+    text-align:center;
+  }
+  .calendar-title { 
+    font-size: 27px;
+    margin: 0px 20px;
+    color: white;
+  }
+  td {
+    padding: 6px;
+    vertical-align: top;
+    width: 14%;
+
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+  }
+
+  .day {
+    height: 80px;
+  }
+
+  .day {
+    background-color: white;
+    transition: 1s;
+  }
+  .day:hover {
+    background-color: #dadbe7;
+  }
+  table {
+
+    background-color: rgba(0, 0, 0, 0);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+  }
+  th {
+    padding: 6px;
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: white;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .wday-0 {}
+  .wday-1 {}
+  .wday-2 {}
+  .wday-3 {}
+  .wday-4 {}
+  .wday-5 {}
+  .wday-6 {}
+
+  .today {
+  }
+  .past {}
+  .future {}
+
+  .start-date {}
+
+  .prev-month { 
+    color: grey;
+    background-color:#ebebeb ; 
+  }
+  .next-month {
+    color: grey;
+    background-color:#ebebeb ;   
+  }
+  .current-month {
+  }
+
+  .has-events {}
+}
