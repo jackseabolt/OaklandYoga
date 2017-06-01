@@ -89,6 +89,14 @@ body {
 	height: 200px;
 	margin-bottom: 60px;
 }
+.book_second_last {
+	height: 200px;
+	margin-bottom: 0px;
+}
+.book_last {
+	height: 200px;
+	margin-bottom: 0px;
+}
 .inner-border-radius {
   	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -306,7 +314,17 @@ nav {
 		font-family: 'Mrs Sheppards', cursive;
 	}
 }
+@media screen and (max-width: 768px){
+		.book_second_last {
+		height: 200px;
+		margin-bottom: 60px;
+	}
+}
 @media screen and (max-width: 600px) {
+	.book_second_last {
+		height: 200px;
+		margin-bottom: 60px;
+	}
 	#logo { 
 		margin-top: 150px !important; 
 		margin-bottom: 30px;
