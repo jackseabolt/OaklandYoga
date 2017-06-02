@@ -185,7 +185,7 @@ body {
 	background-color: #1e1e1e;
 }
 .grey { 
-	color: grey;
+	color: #ababab;
 }
 .index_image {
 	width: 100%; 
@@ -388,6 +388,9 @@ nav {
 		font-size: 80px; 
 		color: white; 
 		font-family: 'Mrs Sheppards', cursive;
+	}
+	.footer_tag {
+		display: none;
 	}
 }
 @media screen and (max-width: 425px) {
