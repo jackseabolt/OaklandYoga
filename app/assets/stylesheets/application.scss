@@ -17,8 +17,11 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-/*AIzaSyCzVtHcHSlKlK7w4jaa7IMAmkJ365MZ5P0*/
+
+
 
 
 /*AIzaSyBhsUP81kslcVCc1TfSQip2uLHfDdV72GE   new */
@@ -83,7 +86,6 @@ body {
 	text-align: center;
 	overflow: visible;
 }
-
 .book_container img {
 	max-width: 100%;
 	-moz-transform: all 0.3s;
@@ -176,6 +178,7 @@ body {
 .directions_text_container {
 	padding-top: 40px;
 }
+
 .footer { 
 	color: grey; 
 	padding-bottom: 80px; 
@@ -260,6 +263,10 @@ body {
   float: none;
   vertical-align: top;
 }
+.navbar-nav {
+	position: relative;
+	left: 65px;
+}
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -309,9 +316,6 @@ nav {
 	color: white !important;
 
 }
-.navbar_nav {
-
-}
 .schedule {
 	width: 100%; 
 	background-color: #1b1e25; 
@@ -359,6 +363,10 @@ nav {
 	.label_decker { 
 	   	top: 36%; 
    	}
+   	.navbar-nav {
+		position: relative;
+		left: 0px;
+	}
 	.schedule_description {
 		margin-top: 0px;
 	}

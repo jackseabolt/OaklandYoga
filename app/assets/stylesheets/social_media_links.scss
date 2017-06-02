@@ -1,0 +1,64 @@
+#facebook {
+	width: 35px; 
+	height: 35px; 
+	border-radius: 50%; 
+	background-color: #1e1e1e;
+	float: right; 
+	transition: 1.5s;
+}
+#facebook:hover {
+	background-color: #6b81ce;
+}
+#facebook_icon {
+	position: relative;
+	top: 9px;
+	color: white;
+	font-size: 18px;
+}
+#social_container {
+	float: right; 
+	background-color: none;
+	margin-top: 8px;
+}
+#twitter {
+	width: 35px; 
+	height: 35px; 
+	border-radius: 50%; 
+	background-color: #1e1e1e;
+	float: right; 
+	transition: 1.5s;
+	margin-right: 10px;
+}
+#twitter_icon {
+	position: relative;
+	top: 9px;
+	color: white;
+	font-size: 18px;
+}
+#twitter:hover {
+	background-color: #3bd6cd;
+}
+#pinterest {
+	width: 35px; 
+	height: 35px; 
+	border-radius: 50%; 
+	background-color: #1e1e1e;
+	float: right; 
+	transition: 1.5s;
+	margin-right: 10px;
+}
+#pinterest:hover {
+	background-color: #ce6b6b;
+}
+#pinterest_icon {
+	position: relative;
+	top: 9px;
+	color: white;
+	font-size: 18px;
+}
+@media screen and (max-width: 767px){
+
+	#social_container {
+		display: none;
+	}
+}
