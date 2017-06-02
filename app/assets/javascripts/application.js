@@ -16,7 +16,9 @@
 //= require turbolinks
 //= require_tree .
 
+
 $(document).on('turbolinks:load', function (){
+
 	function parallax(){
 		div = document.getElementById('banner');  
 		ypos = window.pageYOffset; 
@@ -32,6 +34,7 @@ $(document).on('turbolinks:load', function (){
 	    disableDefaultUI: true
 	  });
 	}
+
 
 
 })

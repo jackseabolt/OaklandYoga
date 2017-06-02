@@ -9,6 +9,7 @@ end
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "simple_calendar", "~> 2.0"
 gem 'google_static_maps_helper', '~> 1.3', '>= 1.3.5'
+gem 'font-awesome-sass'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.3'
