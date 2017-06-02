@@ -81,6 +81,19 @@ body {
 }
 .book_container {
 	text-align: center;
+	overflow: visible;
+}
+
+.book_container img {
+	max-width: 100%;
+	-moz-transform: all 0.3s;
+	-webkit-transform: all 0.3s;
+	transition: all 0.3s;
+}
+.book_container:hover img {
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 .book {
 	height: 200px;
@@ -300,8 +313,8 @@ nav {
 }
 .schedule {
 	width: 100%; 
-	background-color: #1e1e1e; 
-	border: 25px solid #1e1e1e; 
+	background-color: #1b1e25; 
+	border: 25px solid #1b1e25; 
 	color: white; 
 	border-collapse: separate;
 	text-align:center; 
@@ -339,6 +352,12 @@ nav {
 		height: 200px;
 		margin-bottom: 60px;
 	}
+	.label {
+	   	top: 38%; 
+	}
+	.label_decker { 
+	   	top: 36%; 
+   	}
 	.schedule_description {
 		margin-top: 0px;
 	}
@@ -348,6 +367,12 @@ nav {
 		height: 200px;
 		margin-bottom: 60px;
 	}
+	.label { 
+	   	top: 34%; 
+	}
+	.label_decker { 
+	   	top: 34%; 
+   	}
 	#logo { 
 		margin-top: 150px !important; 
 		margin-bottom: 30px;
@@ -357,6 +382,10 @@ nav {
 	}
 }
 @media screen and (max-width: 425px) {
+
+	.label_decker { 
+	   	top: 30%; 
+   	}
 	#logo { 
 		margin-top: 120px !important; 
 		margin-bottom: 30px;
