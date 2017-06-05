@@ -109,6 +109,9 @@ body {
 	height: 200px;
 	margin-bottom: 0px;
 }
+.btn {
+	z-index: 999;
+}
 .inner-border-radius {
   	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
