@@ -368,7 +368,11 @@ nav {
 .white_bg {
 	background-color: white; 
 }
-
+@media screen and (max-width:900px) {
+	.chart {
+		width: 80%;
+	}
+}
 @media screen and (max-width:800px) {
 	#logo { 
 		margin-top: 150px !important; 
@@ -378,6 +382,9 @@ nav {
 	}
 }
 @media screen and (max-width: 767px){
+	.chart {
+		width: 100%;
+	}
 	.book_second_last {
 		height: 200px;
 		margin-bottom: 60px;
@@ -424,7 +431,6 @@ nav {
 	}
 }
 @media screen and (max-width: 425px) {
-
 	.label_decker { 
 	   	top: 30%; 
    	}
